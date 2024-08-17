@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Bibliotekets Startsida";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Välkommen till Biblioteket</h1>
+    <p class="lead">Upptäck vår samling av böcker och lär dig mer om dina favoritförfattare.</p>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h3 class="card-title">Upptäck Böcker</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Bläddra genom vårt omfattande urval av böcker, från klassisk litteratur till moderna bästsäljare.</p>
+                    <a class="btn btn-primary" href="@Url.Action("Index", "Books")">Visa Böcker</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h3 class="card-title">Möt Författarna</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Lär dig mer om författarna bakom dina favoritböcker och utforska deras övriga verk.</p>
+                    <a class="btn btn-primary" href="@Url.Action("Index", "Authors")">Visa Författare</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

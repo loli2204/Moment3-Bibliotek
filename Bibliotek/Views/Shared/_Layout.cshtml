@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Bibliotek</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Bibliotek</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Books">Böcker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Authors">Författare</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bibliotek</p>
+        </div>
+    </footer>
+    <script src="~/js/site.js"></script>
+</body>
+</html>

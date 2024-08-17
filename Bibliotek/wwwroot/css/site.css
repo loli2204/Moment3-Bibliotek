@@ -1,0 +1,123 @@
+/* wwwroot/css/site.css */
+
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 56px; /* Make room for fixed navbar */
+  margin: 0;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #007bff; /* Primary color */
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #e9ecef; /* Lighter hover effect */
+}
+
+/* Container styling */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Page content */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+/* wwwroot/css/site.css */
+.text-center {
+  text-align: center;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.card-title {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
